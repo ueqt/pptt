@@ -10,7 +10,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/17/2023 03:59:13",
+  "HeaderLastSavedDateTimeUTC": "01/17/2023 04:01:24",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -37,10 +37,10 @@
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Button1": 0,
+    "Button1": 2,
     "Label1": 0,
     "Screen1": 0,
-    "TextInput1": 0
+    "TextInput1": 1
   },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},

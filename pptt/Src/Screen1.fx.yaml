@@ -13,6 +13,7 @@ Screen1 As screen:
         ZIndex: =2
 
     Button1 As button:
+        OnSelect: =Label1.Text = TextInput1.Text
         Text: ="Button"
         X: =295
         Y: =386
