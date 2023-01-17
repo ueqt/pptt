@@ -19,3 +19,72 @@ Screen1 As screen:
         Y: =386
         ZIndex: =3
 
+    DataTable1 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =500
+        Items: =Accounts
+        Width: =800
+        X: =566
+        Y: =268
+        ZIndex: =4
+
+        "'Primary Contact_Column1' As dataTableColumn.complexTypeColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Primary Contact"
+            FieldName: ="primarycontactid"
+            FieldVariantName: ="complexTypeColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =4
+            Text: =ThisItem.'Primary Contact'.contactid
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =0
+
+        "'Account Name_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Account Name"
+            FieldName: ="name"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.'Account Name'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        "'Main Phone_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Main Phone"
+            FieldName: ="telephone1"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.'Main Phone'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =2
+
+        "'Address 1: City_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: |-
+                ="Address 1: City"
+            FieldName: ="address1_city"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: |-
+                =ThisItem.'Address 1: City'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =3
+
